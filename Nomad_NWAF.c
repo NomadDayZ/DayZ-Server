@@ -1,0 +1,177 @@
+//	Spawn helper function	//
+// void SpawnObject(string objectName, vector position, vector orientation)
+// {
+    // Object obj;
+    // obj = Object.Cast(GetGame().CreateObject(objectName, "0 0 0"));
+    // obj.SetPosition(position);
+    // obj.SetOrientation(orientation);
+
+    // Force update collisions
+    // if (obj.CanAffectPathgraph())
+    // {
+        // obj.SetAffectPathgraph(true, false);
+        // GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(GetGame().UpdatePathgraphRegionByObject, 100, false, obj);
+    // }
+// }
+//  End Spawn helper function  //
+
+
+void Nomad_NWAF()
+{
+	//NWAF Additional Tents at South Barracks
+SpawnObject( "Land_Mil_Tent_Big1_1", "4638.680176 339.000000 9578.089844", "177.999268 0.000000 -0.000000" );
+SpawnObject( "Land_Mil_Tent_Big1_1", "4630.390137 339.000000 9577.750000", "177.999268 0.000000 -0.000000" );
+SpawnObject( "Land_Mil_Tent_Big1_1", "4621.580078 339.000000 9577.429688", "178.999786 0.000000 -0.000000" );
+SpawnObject( "Land_Mil_Tent_Big2_1", "4630.879883 340.997009 9592.809570", "-2.000723 0.000000 0.000000" );
+SpawnObject( "Land_Mil_Tent_Big4", "4617.000000 340.212006 9593.000000", "85.995522 0.000000 -0.000000" );
+SpawnObject( "Land_Mil_Tent_Big2_2", "4613.100098 341.048004 9576.750000", "-90.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Mil_Tent_Big1_5", "4640.100098 339.032990 9606.900391", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Mil_Tent_Big1_5", "4630.520020 339.000000 9606.860352", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Mil_Tent_Big1_5", "4621.120117 339.000000 9606.809570", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Mil_Tent_Big2_2", "4611.339844 340.997009 9607.490234", "-90.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_misc_toilet_mobile", "4606.680176 340.221008 9583.719727", "-90.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_misc_toilet_mobile", "4606.649902 340.221008 9582.269531", "-90.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_misc_toilet_mobile", "4606.669922 340.221008 9580.830078", "-90.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_misc_toilet_mobile", "4606.720215 340.221008 9579.349609", "-90.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_container_plastic", "4606.560059 339.842010 9587.019531", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_container_plastic", "4606.569824 339.842010 9588.990234", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_mil_camonet_roof_nato", "4643.330078 341.000000 9593.809570", "-87.030457 0.000000 0.000000" );
+SpawnObject( "bldr_tent_chair", "4640.629883 339.496002 9597.589844", "-34.000774 0.000000 0.000000" );
+SpawnObject( "bldr_tent_chair", "4645.290039 339.496002 9597.530273", "0.000000 0.000000 -0.000000" );
+SpawnObject( "bldr_tent_chair", "4646.209961 339.496002 9597.469727", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Roadblock_Table", "4645.720215 339.399994 9597.019531", "0.000000 0.000000 -0.000000" );
+SpawnObject( "bldr_misc_pallets1", "4646.319824 339.341003 9588.400391", "-89.104713 0.000000 0.000000" );
+SpawnObject( "bldr_misc_pallets2", "4642.040039 339.420990 9588.269531", "59.001160 0.000000 -0.000000" );
+SpawnObject( "bldr_misc_pallets3", "4640.160156 339.179993 9588.320313", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_misc_woodtable_outdoor", "4641.549805 339.487000 9592.459961", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_misc_woodtable_outdoor", "4644.740234 339.487000 9592.389648", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4610.430176 339.000000 9600.120117", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4626.660156 339.000000 9598.759766", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4626.660156 339.000000 9598.759766", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4626.660156 339.000000 9598.759766", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4633.370117 339.000000 9599.030273", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4626.660156 339.000000 9598.759766", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4633.459961 339.000000 9585.700195", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4626.660156 339.000000 9598.759766", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4626.660156 339.000000 9598.759766", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m_nolc", "4611.000000 339.028992 9584.429688", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m_nolc", "4621.229980 339.028992 9600.269531", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m_nolc", "4638.009766 339.028992 9592.389648", "-85.013893 0.000000 0.000000" );
+SpawnObject( "vbldr_garbage_ground_6m_nolc", "4639.020020 339.040009 9584.660156", "-85.013893 0.000000 0.000000" );
+SpawnObject( "vbldr_garbage_ground_6m_nolc", "4630.870117 339.040009 9601.820313", "-92.969536 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_ground_6m_nolc", "4626.319824 339.040009 9582.549805", "-92.969536 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_ground_6m_nolc", "4614.310059 339.040009 9598.769531", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_pile6", "4609.080078 339.000000 9590.330078", "-133.002548 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4624.750000 339.000000 9586.730469", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4624.750000 339.000000 9586.730469", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4624.750000 339.000000 9586.730469", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4624.750000 339.000000 9586.730469", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4645.069824 339.000000 9579.070313", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4645.310059 339.000000 9591.200195", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4644.979980 339.000000 9584.950195", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4623.549805 339.000000 9592.230469", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4620.149902 339.000000 9585.030273", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_garbage_groundsq_5m", "4615.850098 339.000000 9585.830078", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Tisy_KitchenRoom", "4692.040039 343.500000 9592.309570", "1.000209 0.000000 -0.000000" );
+SpawnObject( "Land_Tank_Big", "4608.859863 343.842010 9496.599609", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Tank_Big", "4608.799805 343.842010 9518.150391", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_roadblock_cncblocks_short", "4648.919922 339.662994 9577.839844", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_roadblock_cncblocks_short", "4648.430176 339.662994 9610.599609", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_wall_cncsmall_4", "4663.540039 339.200012 9614.139648", "-47.000000 89.000046 -0.000005" );
+SpawnObject( "vbldr_roadblock_cncblocks_short", "4648.029785 339.662994 9614.400391", "0.000000 0.000000 -0.000000" );
+SpawnObject( "vbldr_roadblock_cncblocks_short", "4648.620117 339.662994 9606.290039", "0.000000 0.000000 -0.000000" );
+SpawnObject( "bldr_rds_runway_end15", "4124.340820 339.000000 10818.962891", "150.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_dirt_3", "4159.354492 339.000000 10758.352539", "-29.999998 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_dirt_2", "4199.356445 339.000000 10689.084961", "-29.999998 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_dirt_3", "4239.334473 339.000000 10619.805664", "150.000015 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main", "4279.335449 339.000000 10550.551758", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main", "4319.285156 339.000000 10481.256836", "-29.999998 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main", "4359.229980 339.000000 10411.964844", "150.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main", "4399.219727 339.000000 10342.695313", "-30.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main", "4439.163574 339.000000 10273.407227", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main", "4479.144531 339.000000 10204.112305", "-30.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main", "4519.157227 339.000000 10134.839844", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main", "4559.172852 339.000000 10065.563477", "-29.999998 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main", "4599.183105 339.000000 9996.290039", "-29.999998 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_end33", "4812.396973 339.000000 9626.585938", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_dirt_3", "4777.375000 339.000000 9687.192383", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_dirt_2", "4737.372559 339.016357 9756.458008", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_dirt_3", "4697.388184 339.039825 9825.722656", "-30.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main", "4657.430664 339.000000 9895.001953", "-30.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_main_40", "4628.172363 339.000000 9945.819336", "-29.700005 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_t_2", "4379.440430 339.000000 10723.695313", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_t_1", "4255.269531 339.000000 10651.934570", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4272.640137 339.000000 10661.833984", "-30.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4289.893555 339.005096 10671.936523", "150.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4307.214844 339.000000 10681.934570", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4341.856934 339.000000 10701.929688", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4324.538086 339.000000 10691.929688", "150.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4359.185059 339.000000 10711.910156", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_l_2", "4269.974609 339.000000 10903.240234", "150.000122 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_t_2", "4310.141113 339.000000 10875.024414", "-31.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4327.377930 339.000000 10827.243164", "-32.000004 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4338.005859 339.000000 10810.299805", "-32.000004 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4348.783203 339.000000 10793.441406", "-33.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4359.691406 339.000000 10776.675781", "-33.000004 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4365.788574 339.000000 10766.920898", "57.999992 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4234.083008 339.000000 10905.851563", "151.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_l_1", "4127.749512 339.000000 10832.330078", "148.999954 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4182.829590 339.000000 10876.208008", "60.000011 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4221.086426 339.000000 10898.254883", "60.500004 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_beton", "4371.018066 339.000000 10780.775391", "-29.500000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_beton", "4410.401855 339.000000 10711.143555", "-29.500000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4412.948730 339.019989 10685.353516", "-28.000010 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_t_2", "4474.797363 339.000000 10549.425781", "150.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4444.929688 339.000000 10624.068359", "-28.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4421.909668 339.019989 10667.878906", "-27.000010 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_t_1", "4354.310547 339.000000 10480.559570", "150.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4397.750000 339.000000 10505.169922", "60.500004 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4448.950684 339.000000 10534.496094", "-29.500000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4431.769043 339.000000 10524.456055", "59.800003 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_t_1", "4533.173828 339.000000 10170.584961", "150.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4576.442871 339.000000 10195.470703", "59.999992 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4619.729980 339.000000 10220.459961", "59.999992 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4636.786621 339.000000 10230.348633", "-29.999996 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4618.434570 339.000000 10323.634766", "-29.999998 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4578.433594 339.000000 10392.877930", "-30.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4538.300781 339.000000 10462.070313", "-30.299997 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4512.933594 339.000000 10504.837891", "58.999989 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4502.713379 339.000000 10521.985352", "-31.000004 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_t_2", "4654.392090 339.000000 10240.770508", "150.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4638.262207 339.000000 10289.086914", "-30.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4691.746582 339.000000 10191.371094", "-26.499998 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4686.258789 339.000000 10203.146484", "-23.000015 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_t_2", "4711.322266 339.000000 10132.137695", "150.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_t_1", "4594.102051 339.000000 10064.918945", "150.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4637.565430 339.000000 10089.570313", "60.500004 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4680.907227 339.000000 10114.198242", "59.999992 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4698.219727 339.000000 10124.267578", "60.000011 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_l_1_end", "4690.937012 339.234497 9856.898438", "150.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4756.806641 339.000000 9882.538086", "61.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_t_2", "4829.992188 339.000000 9922.813477", "151.000031 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4797.814941 339.000000 9905.091797", "61.999992 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4809.928223 339.000000 9911.466797", "-28.000010 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4800.198242 339.000000 9997.610352", "-29.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4760.655273 339.000000 10067.431641", "-30.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4779.793457 339.000000 10034.303711", "-30.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4740.381836 339.299927 10102.547852", "-31.000006 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_l_1_end", "4826.035645 339.049988 9622.932617", "150.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4865.507324 339.000000 9633.918945", "61.000004 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4879.999023 339.000000 9642.251953", "-31.500000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4895.546387 339.000000 9652.621094", "53.999996 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_l_2_end", "4992.704102 338.900024 9702.987305", "56.999989 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4932.393066 339.000000 9676.520508", "57.999992 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_l_1_end", "4916.549316 339.000000 9659.628906", "74.999992 -1.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4917.020508 339.000000 9700.225586", "80.999992 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4915.081055 339.000000 9718.828125", "-4.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4912.915039 339.000000 9735.007813", "79.000000 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4908.861328 339.000000 9753.897461", "-14.000003 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_draha", "4895.689941 339.000000 9801.296875", "-16.000011 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4882.414551 339.000000 9844.573242", "-21.000010 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4862.532227 339.000000 9884.804688", "-29.000008 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj_2", "4871.698242 339.000000 9867.555664", "-27.000010 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runway_poj_spoj", "4877.014648 339.000000 9856.827148", "64.000015 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runwayold_40_main", "4699.548828 339.000000 10231.037109", "59.999992 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runwayold_40_main", "4719.540039 339.000000 10196.394531", "59.999996 0.000000 0.000000" );
+SpawnObject( "bldr_rds_runwayold_40_main", "4739.545898 339.000000 10161.764648", "59.999996 0.000000 0.000000" );
+}
